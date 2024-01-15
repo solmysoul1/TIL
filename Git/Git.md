@@ -29,5 +29,34 @@
 # Git의 동작
 
 ```python
-git init 
+git init : 로컬 저장소 설정 (초기화), git 의 버전관리를 시작할 디렉토리에서 진행, 경로확인필수
 ```
+```python
+git add : Staging Area 에 추가
+```
+```python
+git add . : 모든 파일을 스테이징
+```
+```python
+git add *.txt* : 확장자가 txt인 파일만 스테이징
+```
+```python
+git rm --cached <파일> : Staging Area에서 제거 
+```
+```python
+git commit -m "commit message" : 해당 시점의 버전을 생성하고 변경이력을 남김
+```
+```python
+git status : 현재상태
+```
+```python
+git log : commit 기록
+```
+```python
+git log --oneline : git log를 간략하게 보여줌
+```
+```python
+git log --online --graph : git log를 그래프로 보여줌
+```
+
+### [git 공식문서]('https://git-scm.com/book/ko/v2')
