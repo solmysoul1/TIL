@@ -13,7 +13,7 @@ for tc in range(1, T+1):
             count += 1
             cnt[i] -= 3
 
-    for i in range(7):
+    for i in range(8):
         if cnt[i] >= 1 and cnt[i+1] >= 1 and cnt[i+2] >= 1: 
             count += 1
             cnt[i] -= 1
