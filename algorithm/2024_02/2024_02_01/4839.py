@@ -17,6 +17,7 @@ for tc in range(1, T+1):
             start = middle 
         else:
             end = middle
+            
 
     start = 1
     end = P
