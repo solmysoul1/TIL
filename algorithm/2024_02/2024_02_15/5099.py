@@ -11,7 +11,6 @@ for tc in range(1, T+1):
     rest_pz = pz[N:]
     while len(oven) > 1:
         check = oven.pop(0)
-        # check[1]//=2
         check[1] //= 2
         if check[1] == 0:
             if rest_pz:
