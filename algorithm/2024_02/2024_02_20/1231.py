@@ -1,7 +1,6 @@
 # 중위순회
 def inorder(root):
     if root:
-        print(left)
         inorder(left[root])
         result.append(arr[root-1][1])
         inorder(right[root])
