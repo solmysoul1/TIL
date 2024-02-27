@@ -70,23 +70,23 @@
 
 # ----- 중복 순열 3 -----
 
-# path = []
-# used = [False, False, False]
+path = []
+used = [False, False, False]
 
-# def KFC(x):
-#     if x == 2:
-#         print(path)
-#         return
+def KFC(x):
+    if x == 2:
+        print(path)
+        return
     
-#     for i in range(3):
-#         if used[i] == True : continue
-#         used[i] = True
-#         path.append(i)
-#         KFC(x+1)
-#         path.pop()
-#         used[i] = False
+    for i in range(3):
+        if used[i] == True : continue
+        used[i] = True
+        path.append(i)
+        KFC(x+1)
+        path.pop()
+        used[i] = False
 
-# KFC(0)
+KFC(0)
 
 # ----- 순열 1 -----
 
