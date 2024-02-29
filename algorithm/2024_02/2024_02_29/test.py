@@ -47,11 +47,6 @@
     
 # ------ 붕어빵 답안 ------
         
-# for tc in range(1,11):
-#     N = int(input())
-
-# ------ 1220 Magnetic ------
-    
 # def get_sero_cnt(col):
 #     cnt = 0
 #     # red 자성체를 체크
@@ -78,13 +73,7 @@
 #     print(f'#{tc} {total_cnt}')
     
 # ------ Magnetic 답안 ------
-    
-# T = int(input())
-# for tc in range(1, T+1):
-#     N = int(input())
-
-# ------ 4408 자기 방으로 돌아가기 ------
-    
+     
 # T = int(input())
 # for tc in range(1, T+1):
 #     N = int(input())
