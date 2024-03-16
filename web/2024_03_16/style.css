@@ -1,0 +1,22 @@
+/* .box1 {
+    width: 200px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-left: 25px;
+    margin-top: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+* {
+    box-sizing: border-box;
+} */
+
+.container {
+    flex-direction: row;
+    /* flex-direction: column-reverse; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
